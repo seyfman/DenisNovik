@@ -8,7 +8,6 @@ $(document).ready(function () {
     $(".nav__link a").click(function (ent) {
         $('.burger').removeClass('burger__activ')
         $('.nav').removeClass('nav__activ')
-
     })
 
     $('.slider').slick({
